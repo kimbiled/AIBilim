@@ -1,7 +1,7 @@
 import styles from "../style";
 import {
 	Footer,
-	Navbar,
+	FQA,
 	Stats,
 	Hero,
 	Info,
@@ -28,6 +28,7 @@ const App = () => (
 			<div className={`${styles.boxWidth}`}>
 				<Stats />
 				<Info></Info>
+				<FQA />
 			</div>
 		</div>
 	</div>
